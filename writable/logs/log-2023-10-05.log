@@ -1,0 +1,91 @@
+CRITICAL - 2023-10-05 12:55:20 --> Invalid file: "app/Views/template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/Views/template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('app/Views/template/header.php', [], true)
+ 3 APPPATH\Controllers\Recette.php(10): view('app/Views/template/header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Recette->getList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 12:56:30 --> Invalid file: "app/Views/template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/Views/template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('app/Views/template/header.php', [], true)
+ 3 APPPATH\Controllers\Recette.php(10): view('app/Views/template/header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Recette->getList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 12:56:31 --> Invalid file: "app/Views/template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/Views/template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('app/Views/template/header.php', [], true)
+ 3 APPPATH\Controllers\Recette.php(10): view('app/Views/template/header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Recette->getList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 12:56:31 --> Invalid file: "app/Views/template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/Views/template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('app/Views/template/header.php', [], true)
+ 3 APPPATH\Controllers\Recette.php(10): view('app/Views/template/header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Recette->getList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 12:56:32 --> Invalid file: "app/Views/template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/Views/template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('app/Views/template/header.php', [], true)
+ 3 APPPATH\Controllers\Recette.php(10): view('app/Views/template/header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Recette->getList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 12:56:32 --> Invalid file: "app/Views/template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/Views/template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('app/Views/template/header.php', [], true)
+ 3 APPPATH\Controllers\Recette.php(10): view('app/Views/template/header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Recette->getList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 12:56:33 --> Invalid file: "app/Views/template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/Views/template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('app/Views/template/header.php', [], true)
+ 3 APPPATH\Controllers\Recette.php(10): view('app/Views/template/header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Recette->getList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 13:01:44 --> Invalid file: "app/Views/template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/Views/template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('app/Views/template/header.php', [], true)
+ 3 APPPATH\Controllers\Recette.php(10): view('app/Views/template/header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Recette->getList()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 13:02:51 --> Invalid file: "app/Views/template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('app/Views/template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('app/Views/template/header.php', [], true)
+ 3 APPPATH\Controllers\Recette.php(10): view('app/Views/template/header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Recette->getListe()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 13:27:39 --> Undefined constant "css"
+in APPPATH\Views\template\header.php on line 9.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/header.php', [], true)
+ 4 APPPATH\Controllers\Recette.php(11): view('template/header.php')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Recette->getListe()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Recette))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,271 @@
+CRITICAL - 2023-11-30 09:22:09 --> Undefined variable: data
+in APPPATH\Controllers\TestDB.php on line 31.
+ 1 APPPATH\Controllers\TestDB.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:22:31 --> Undefined variable: data
+in APPPATH\Controllers\TestDB.php on line 31.
+ 1 APPPATH\Controllers\TestDB.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:22:31 --> Undefined variable: data
+in APPPATH\Controllers\TestDB.php on line 31.
+ 1 APPPATH\Controllers\TestDB.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:22:32 --> Undefined variable: data
+in APPPATH\Controllers\TestDB.php on line 31.
+ 1 APPPATH\Controllers\TestDB.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:22:38 --> Undefined variable: data
+in APPPATH\Controllers\TestDB.php on line 31.
+ 1 APPPATH\Controllers\TestDB.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:24:00 --> Undefined variable: data
+in APPPATH\Controllers\TestDB.php on line 31.
+ 1 APPPATH\Controllers\TestDB.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:24:01 --> Undefined variable: data
+in APPPATH\Controllers\TestDB.php on line 31.
+ 1 APPPATH\Controllers\TestDB.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:24:26 --> Undefined variable: data
+in APPPATH\Controllers\TestDB.php on line 31.
+ 1 APPPATH\Controllers\TestDB.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 31, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:25:05 --> Call to a member function find() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:26:03 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:26:04 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:26:05 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:30:49 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:32:29 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:33:38 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:34:18 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:36:43 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:36:43 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:38:48 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:38:49 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:38:50 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:40:47 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:40:47 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:47:18 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:48:30 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 09:48:30 --> Call to a member function first() on null
+in APPPATH\Controllers\TestDB.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 09:56:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom d'objet 'AP3.dbo.Utilisateur' non valide.
+CRITICAL - 2023-11-30 09:56:30 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom d'objet 'AP3.dbo.Utilisateur' non valide.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AP3"."dbo"."Utilisateur"
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\TestDB.php(17): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-30 09:56:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom d'objet 'AP3.dbo.Utilisateur' non valide.
+CRITICAL - 2023-11-30 09:56:31 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Nom d'objet 'AP3.dbo.Utilisateur' non valide.
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "AP3"."dbo"."Utilisateur"
+ ORDER BY (SELECT NULL)  OFFSET 0  ROWS FETCH NEXT 1 ROWS ONLY ', [], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\TestDB.php(17): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 14:17:28 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\Index.php(11): view('index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Index->Affiche()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 14:17:29 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\Index.php(11): view('index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Index->Affiche()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Index))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 14:23:39 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(11): view('index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 14:24:38 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(11): view('index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 14:28:50 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(11): view('index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 14:30:31 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(11): view('index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 14:34:08 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(11): view('index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 14:34:08 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(11): view('index.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-30 16:39:35 --> Invalid file: "template/header.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/header.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('template/header.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(11): view('template/header.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

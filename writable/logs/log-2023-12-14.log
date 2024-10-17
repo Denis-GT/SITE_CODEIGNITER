@@ -1,0 +1,23 @@
+CRITICAL - 2023-12-14 13:46:58 --> Undefined variable: session
+in APPPATH\Views\pages\contact.php on line 11.
+ 1 APPPATH\Views\pages\contact.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\contact.php', 11, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\contact.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/contact.php', [], true)
+ 5 APPPATH\Controllers\C_BASE.php(40): view('pages/contact.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Contact()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-14 13:46:59 --> Undefined variable: session
+in APPPATH\Views\pages\contact.php on line 11.
+ 1 APPPATH\Views\pages\contact.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: session', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\contact.php', 11, [])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\contact.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/contact.php', [], true)
+ 5 APPPATH\Controllers\C_BASE.php(40): view('pages/contact.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Contact()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-14 14:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

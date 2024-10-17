@@ -1,0 +1,514 @@
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
+  
+  ::selection {
+    background: #000;
+    color: #aaf;
+  }
+
+ 
+  .alternate ::selection {
+    background: #c00;
+    color: #000;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+    height: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  ul, li,  h2, h3, h4, h5, h6,  a, .logo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .inner {
+    width: 1400px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 25%;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    padding-top: 1.75%;
+    background: #000;
+    transition: 0.7s all;
+    z-index: 100;
+  }
+  
+  /* header.alt-header {
+    background: #fff;
+  } */
+  
+  .alt-header a {
+    color: #000;
+  }
+  
+  body.header-fixed header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  nav {
+    overflow: hidden;
+  }
+  
+  nav ul {
+    float: right;
+  }
+  
+  nav li {
+    display: inline;
+    float: left;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    transition: 0.3s all;
+  }
+  
+  nav a:hover {
+    background: rgb(150, 0, 0);
+  }
+  
+  .logo {
+    float: left;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    transition: 0.7s all;
+  }
+  
+  .alt-header .logo {
+    color: #000;
+  }
+  
+  body.header-fixed .logo {
+    font-size: 30px;
+  }
+  
+  .alternate {
+    background: #000;
+    color: rgb(255, 255, 255);
+  }
+  
+  section .inner {
+    padding-top: 200px;
+  }
+
+.fond_1{
+  background: url(/public/img/images-kart/photo2.jpg) no-repeat fixed ;
+}
+
+.fond_2 {
+  background: url(/public/img/fond/fond1.png) no-repeat fixed ;
+  background-size:cover;
+}
+
+
+.ligues{
+  height: 1000%;
+  margin-top: 5%;
+}
+
+.txt_centr{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 10%;
+  color: #ffffff;
+  font-size: 160%;
+}
+
+.txt_centr_banc{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1%;
+  color: #ffffff;
+  font-size: 200%;
+  font: bold;
+  margin: 10%;
+}
+
+.txt_centr_noir{
+  font-family: 'raser';
+  margin-top: 15%;
+  color: #000000;
+  font-size: 700%;
+  font: bold;
+  text-shadow: #ffffff 1px 0 10px;
+}
+
+.map {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 200%;
+  width: 40%;
+  border: 2px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  margin: auto;
+  padding: 40px;
+  border-radius: 1%;
+}
+
+
+
+
+/* // LOCATION DE KART========================================================================================================================== */
+
+
+
+
+.louer_kart {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 200%;
+  width: 35%;
+  border: 2px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+
+[type="calcul-submit"]:hover {
+  background: #be0000;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+[type="calcul-submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+[type="calcul-submit"] {
+  cursor: pointer;
+  border: none;
+  background: #000000;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+[type="text"]:hover,
+[type="email"]:hover,
+[type="tel"]:hover,
+[type="url"]:hover,
+select:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border:  solid rgb(230, 0, 0);
+}
+
+select {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+[id="nombre_de_jours"]{
+  position: relative;
+  width: 7%;
+  height: 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+[id="nombre_de_karts"]{
+  position: relative;
+  width: 7%;
+  height: 25px;
+  margin-bottom: 13px;
+  border-radius: 5px;
+}
+/* 
+[id="categorie"]{
+  position: relative;
+  width: 15%;
+  height: 25px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+[id="Mécano_oui"]{
+  position: relative;
+  width: 7%;
+  height: 17px;
+  margin-bottom: 10px;
+}
+
+[id="Mécano_non"]{
+  position: relative;
+  width: 7%;
+  height: 17px;
+  margin-bottom: 10px;
+} */
+
+
+.tabl{
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 200%;
+  width: 50%;
+  border: 2px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  margin: auto;
+  padding: 40px;
+  border-radius: 1%;
+}
+
+
+
+  /* dfsdfs================================================================================================================================================================ */
+
+/*contact*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* 
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="password"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}   
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="password"],
+#contact input[type="cpassword"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="password"]:hover,
+#contact input[type="cpassword"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid rgb(230, 0, 0);
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #000000;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #be0000;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+
+/* membres ====================================================================================================================================================================== */
+
+
+
+.Membre_Corp{
+  background-color: #ffffff;
+  text-align: center;
+  box-shadow: #000000 5px 15px rgba(0, 0, 0, 3);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #000;
+  color: #aaf;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+ul, li, h2, h3, h4, h5, h6, a, .logo {
+  margin: 0;
+  padding: 0;
+}
+
+.inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  background: #000;
+  transition: background 0.3s;
+  z-index: 100;
+}
+
+header.alt-header {
+  background: #fff;
+}
+
+.alt-header a {
+  color: #000;
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 10px;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: #960000;
+}
+
+.logo {
+  float: left;
+  color: #fff;
+  font-size: 40px;
+  line-height: 40px;
+  transition: font-size 0.3s;
+}
+
+body.header-fixed header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 10px 0;
+  width: 100%;
+  z-index: 2;
+}

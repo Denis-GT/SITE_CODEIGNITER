@@ -1,0 +1,266 @@
+INFO - 2024-03-07 13:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-07 13:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-07 13:44:32 --> Call to a member function findAll() on null
+in APPPATH\Controllers\API.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-07 13:46:19 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061 in C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\laragon\www\AP3-codeigniter\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\laragon\www\AP3-codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\AP3-codeigniter\app\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+#7 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#8 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\AP3-codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-07 13:46:19 --> Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "THEBASE78"."dbo"."Utilisateurs"', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-07 13:46:25 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061 in C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\laragon\www\AP3-codeigniter\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\laragon\www\AP3-codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\AP3-codeigniter\app\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+#7 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#8 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\AP3-codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-07 13:46:25 --> Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "THEBASE78"."dbo"."Utilisateurs"', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-07 13:46:30 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061 in C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\laragon\www\AP3-codeigniter\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\laragon\www\AP3-codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\AP3-codeigniter\app\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+#7 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#8 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\AP3-codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-07 13:46:30 --> Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "THEBASE78"."dbo"."Utilisateurs"', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-07 13:46:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-07 13:46:42 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061 in C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\laragon\www\AP3-codeigniter\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\laragon\www\AP3-codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\AP3-codeigniter\app\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+#7 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#8 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\AP3-codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-07 13:46:42 --> Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "THEBASE78"."dbo"."Utilisateurs"', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-03-07 13:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-07 13:46:56 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061 in C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\laragon\www\AP3-codeigniter\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\laragon\www\AP3-codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\AP3-codeigniter\app\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+#7 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#8 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\AP3-codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-07 13:46:56 --> Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "THEBASE78"."dbo"."Utilisateurs"', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-07 13:47:24 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061 in C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\laragon\www\AP3-codeigniter\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\laragon\www\AP3-codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\AP3-codeigniter\app\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+#7 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#8 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\AP3-codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-07 13:47:24 --> Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "THEBASE78"."dbo"."Utilisateurs"', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-07 13:47:33 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061 in C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\laragon\www\AP3-codeigniter\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\laragon\www\AP3-codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\AP3-codeigniter\app\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+#7 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#8 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\AP3-codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-07 13:47:33 --> Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "THEBASE78"."dbo"."Utilisateurs"', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-03-07 13:48:16 --> Error connecting to the database: CodeIgniter\Database\Exceptions\DatabaseException: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061 in C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Connection.php:142
+Stack trace:
+#0 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(391): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\laragon\www\AP3-codeigniter\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\laragon\www\AP3-codeigniter\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\laragon\www\AP3-codeigniter\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\laragon\www\AP3-codeigniter\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\laragon\www\AP3-codeigniter\app\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+#6 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+#7 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+#8 C:\laragon\www\AP3-codeigniter\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\AP3-codeigniter\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-03-07 13:48:16 --> Unable to connect to the database.
+Main connection [SQLSRV]: [Microsoft][ODBC Driver 17 for SQL Server]Fournisseur TCP : Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée.
+ SQLSTATE: 08001, code: 10061
+[Microsoft][ODBC Driver 17 for SQL Server]Délai d'attente de connexion expiré SQLSTATE: HYT00, code: 0
+[Microsoft][ODBC Driver 17 for SQL Server]Une erreur liée au réseau ou spécifique à l'instance s'est produite lors de l'établissement d'une connexion à SQL Server. Le serveur est introuvable ou n'est pas accessible. Vérifiez si le nom de l'instance est correct et si SQL Server est configuré pour autoriser les connexions distantes. Pour plus d'informations, consultez la documentation en ligne de SQL Server. SQLSTATE: 08001, code: 10061
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "THEBASE78"."dbo"."Utilisateurs"', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\API.php(12): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\API->Get_Personne()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

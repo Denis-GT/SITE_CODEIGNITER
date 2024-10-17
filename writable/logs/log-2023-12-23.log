@@ -1,0 +1,421 @@
+INFO - 2023-12-23 20:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:22:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 20:45:53 --> Cannot use object of type CodeIgniter\Session\Session as array
+in APPPATH\Views\pages\contact.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/contact.php', [], true)
+ 4 APPPATH\Controllers\C_BASE.php(47): view('pages/contact.php')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Contact()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 20:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 20:46:02 --> Cannot use object of type CodeIgniter\Session\Session as array
+in APPPATH\Views\pages\contact.php on line 12.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/contact.php', [], true)
+ 4 APPPATH\Controllers\C_BASE.php(47): view('pages/contact.php')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Contact()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 20:46:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:47:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:58:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 20:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:08:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 21:08:20 --> Undefined index: Nom
+in APPPATH\Controllers\C_BASE.php on line 81.
+ 1 APPPATH\Controllers\C_BASE.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: Nom', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\C_BASE.php', 81, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Connecte_Contact()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 21:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 21:08:53 --> Undefined index: mail
+in APPPATH\Controllers\C_BASE.php on line 83.
+ 1 APPPATH\Controllers\C_BASE.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: mail', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\C_BASE.php', 83, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Connecte_Contact()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 21:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 21:09:04 --> Undefined index: radio_inscription
+in APPPATH\Controllers\C_BASE.php on line 84.
+ 1 APPPATH\Controllers\C_BASE.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: radio_inscription', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\C_BASE.php', 84, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Connecte_Contact()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 21:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 21:09:22 --> Undefined index: radio_inscription
+in APPPATH\Controllers\C_BASE.php on line 84.
+ 1 APPPATH\Controllers\C_BASE.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: radio_inscription', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\C_BASE.php', 84, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Connecte_Contact()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 21:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:21:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:28:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:28:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:28:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:48:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:50:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:51:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 21:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 21:55:12 --> Undefined variable: cnx
+in APPPATH\Views\pages\tableUtilisateurs.php on line 18.
+ 1 APPPATH\Views\pages\tableUtilisateurs.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: cnx', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tableUtilisateurs.php', 18, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tableUtilisateurs.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/tableUtilisateurs.php', [], true)
+ 5 APPPATH\Controllers\C_BASE.php(61): view('pages/tableUtilisateurs.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:05:33 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(66): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 22:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 22:06:13 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(66): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:09:32 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(66): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:09:33 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(66): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:09:58 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(66): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:09:59 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(66): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 22:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 22:10:06 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(66): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:11:28 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(66): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:11:29 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(66): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:11:30 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(66): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:13:04 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(62): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 22:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 22:13:12 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(62): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:13:39 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(62): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:14:19 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(62): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-12-23 22:14:21 --> Invalid file: "tableUtilisateurs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tableUtilisateurs.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('tableUtilisateurs.php', [], true)
+ 3 APPPATH\Controllers\C_BASE.php(62): view('tableUtilisateurs.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 22:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 22:15:33 --> Trying to get property 'id' of non-object
+in APPPATH\Views\pages\tableUtilisateurs.php on line 28.
+ 1 APPPATH\Views\pages\tableUtilisateurs.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id\' of non-object', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tableUtilisateurs.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tableUtilisateurs.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/tableUtilisateurs.php', [], true)
+ 5 APPPATH\Controllers\C_BASE.php(62): view('pages/tableUtilisateurs.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 22:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 22:17:48 --> Trying to get property 'id' of non-object
+in APPPATH\Views\pages\tableUtilisateurs.php on line 28.
+ 1 APPPATH\Views\pages\tableUtilisateurs.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'id\' of non-object', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tableUtilisateurs.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tableUtilisateurs.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/tableUtilisateurs.php', [], true)
+ 5 APPPATH\Controllers\C_BASE.php(62): view('pages/tableUtilisateurs.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 22:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 22:18:04 --> Trying to get property 'idUtilisateur' of non-object
+in APPPATH\Views\pages\tableUtilisateurs.php on line 28.
+ 1 APPPATH\Views\pages\tableUtilisateurs.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get property \'idUtilisateur\' of non-object', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tableUtilisateurs.php', 28, [...])
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tableUtilisateurs.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/tableUtilisateurs.php', [], true)
+ 5 APPPATH\Controllers\C_BASE.php(62): view('pages/tableUtilisateurs.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 22:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 22:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:42:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 23:44:41 --> session_start(): A session had already been started - ignoring
+in APPPATH\Views\pages\tarifs.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): A session had already been started - ignoring', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tarifs.php', 2, [])
+ 2 APPPATH\Views\pages\tarifs.php(2): session_start()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tarifs.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/tarifs.php', [], true)
+ 6 APPPATH\Controllers\C_BASE.php(40): view('pages/tarifs.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Tarifs()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 23:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 23:44:42 --> session_start(): A session had already been started - ignoring
+in APPPATH\Views\pages\evenements.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): A session had already been started - ignoring', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\evenements.php', 2, [])
+ 2 APPPATH\Views\pages\evenements.php(2): session_start()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\evenements.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/evenements.php', [], true)
+ 6 APPPATH\Controllers\C_BASE.php(33): view('pages/evenements.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Evenements()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 23:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 23:44:49 --> session_start(): A session had already been started - ignoring
+in APPPATH\Views\pages\tarifs.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): A session had already been started - ignoring', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tarifs.php', 2, [])
+ 2 APPPATH\Views\pages\tarifs.php(2): session_start()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\tarifs.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/tarifs.php', [], true)
+ 6 APPPATH\Controllers\C_BASE.php(40): view('pages/tarifs.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Tarifs()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 23:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:44:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 23:44:53 --> session_start(): A session had already been started - ignoring
+in APPPATH\Views\pages\evenements.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): A session had already been started - ignoring', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\evenements.php', 2, [])
+ 2 APPPATH\Views\pages\evenements.php(2): session_start()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\evenements.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/evenements.php', [], true)
+ 6 APPPATH\Controllers\C_BASE.php(33): view('pages/evenements.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Evenements()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 23:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 23:44:56 --> session_start(): A session had already been started - ignoring
+in APPPATH\Views\pages\organisateurs.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start(): A session had already been started - ignoring', 'C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\organisateurs.php', 2, [])
+ 2 APPPATH\Views\pages\organisateurs.php(2): session_start()
+ 3 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ci-atelier3\\app\\Views\\pages\\organisateurs.php')
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/organisateurs.php', [], true)
+ 6 APPPATH\Controllers\C_BASE.php(26): view('pages/organisateurs.php')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Organisateurs()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 23:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:45:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:45:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:48:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 23:57:19 --> Constant expression contains invalid operations
+in APPPATH\Controllers\C_BASE.php on line 12.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-12-23 23:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 23:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 23:59:49 --> Undefined property: App\Controllers\C_BASE::$session
+in APPPATH\Controllers\C_BASE.php on line 88.
+ 1 APPPATH\Controllers\C_BASE.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: App\\Controllers\\C_BASE::$session', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\C_BASE.php', 88, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\C_BASE->Affiche_Table_Utilisateurs()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_BASE))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-12-23 23:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

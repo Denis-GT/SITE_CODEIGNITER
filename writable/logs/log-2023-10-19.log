@@ -1,0 +1,69 @@
+CRITICAL - 2023-10-19 12:16:28 --> Array to string conversion
+in APPPATH\Controllers\TestDB.php on line 23.
+ 1 APPPATH\Controllers\TestDB.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 12:17:25 --> Array to string conversion
+in APPPATH\Controllers\TestDB.php on line 23.
+ 1 APPPATH\Controllers\TestDB.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 12:17:30 --> Undefined array key 0
+in APPPATH\Controllers\TestDB.php on line 23.
+ 1 APPPATH\Controllers\TestDB.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\laragon\\www\\ci-atelier3\\app\\Controllers\\TestDB.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 12:22:50 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\TestDB.php(25): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-19 12:23:41 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 768.
+ 1 SYSTEMPATH\BaseModel.php(768): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\TestDB.php(25): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-19 12:27:41 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`hellskitchen`.`recettes`, CONSTRAINT `recettes_ibfk_1` FOREIGN KEY (`idType`) REFERENCES `types` (`idType`)) in C:\laragon\www\ci-atelier3\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ci-atelier3\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\laragon\www\ci-atelier3\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\laragon\www\ci-atelier3\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\laragon\www\ci-atelier3\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\laragon\www\ci-atelier3\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\ci-atelier3\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\ci-atelier3\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\ci-atelier3\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\ci-atelier3\app\Controllers\TestDB.php(28): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\ci-atelier3\system\CodeIgniter.php(919): App\Controllers\TestDB->index()
+#10 C:\laragon\www\ci-atelier3\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+#11 C:\laragon\www\ci-atelier3\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\ci-atelier3\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-19 12:27:41 --> Cannot add or update a child row: a foreign key constraint fails (`hellskitchen`.`recettes`, CONSTRAINT `recettes_ibfk_1` FOREIGN KEY (`idType`) REFERENCES `types` (`idType`))
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `recettes` (`nomRecette`, `instruction`) VALUES (:nomRecette:, :instruction:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\TestDB.php(28): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\TestDB->index()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestDB))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

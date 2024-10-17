@@ -1,0 +1,107 @@
+INFO - 2024-05-22 14:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 14:36:39 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 14:36:39 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 14:36:39 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 14:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 14:36:56 --> Tentative de connexion avec email: sssss@mail.com
+ERROR - 2024-05-22 14:36:56 --> Utilisateur non trouvé avec email: sssss@mail.com
+INFO - 2024-05-22 14:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 14:36:58 --> Tentative de connexion avec email: sssss@mail.com
+ERROR - 2024-05-22 14:36:58 --> Utilisateur non trouvé avec email: sssss@mail.com
+INFO - 2024-05-22 14:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 14:37:10 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 14:37:10 --> Utilisateur trouvé avec email: ff@mail.com
+ERROR - 2024-05-22 14:37:10 --> Mot de passe incorrect pour utilisateur: ff@mail.com
+INFO - 2024-05-22 14:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:11:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:11:32 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:11:32 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:11:32 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:25:31 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:25:31 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:25:31 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:26:30 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:26:30 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:26:30 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:27:28 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:27:28 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:27:28 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:29:52 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:29:53 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:29:53 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:51:01 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:51:01 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:51:01 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:51:06 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:51:06 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:51:06 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:51:52 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:51:52 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:51:52 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:53:49 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:53:49 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:53:49 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:54:46 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:54:46 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:54:46 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:54:48 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:54:48 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:54:48 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:54:49 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:54:49 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:54:49 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:55:17 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:55:17 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:55:17 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:56:25 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:56:25 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:56:25 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:57:37 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:57:37 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:57:37 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:58:08 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:58:08 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:58:08 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:59:21 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:59:21 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:59:21 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:59:23 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 15:59:23 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 15:59:23 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 15:59:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 15:59:59 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 16:00:00 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 16:00:00 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 16:01:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 16:01:02 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 16:01:02 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 16:01:02 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 16:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 16:37:13 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 16:37:13 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 16:37:13 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 16:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 16:40:23 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 16:40:23 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 16:40:23 --> Connexion réussie pour utilisateur: ff@mail.com
+INFO - 2024-05-22 16:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-22 16:47:38 --> Tentative de connexion avec email: ff@mail.com
+INFO - 2024-05-22 16:47:38 --> Utilisateur trouvé avec email: ff@mail.com
+INFO - 2024-05-22 16:47:38 --> Connexion réussie pour utilisateur: ff@mail.com
